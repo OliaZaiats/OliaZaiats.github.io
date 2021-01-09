@@ -128,11 +128,27 @@ body{
     line-height: 42;
 }
 
-.cart{
+
+.img-cart{
     position: absolute;
     top: 50%;                         
     transform: translate(0, -50%);
     left: 25%;
     width: 20px;
     height: 20px;
+}
+.products-count{
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    background-color: #2d71b8;
+    border: 1px solid #2d71b8;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    color: white;
+
 }
